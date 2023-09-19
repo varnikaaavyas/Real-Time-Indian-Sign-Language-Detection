@@ -1,1 +1,1 @@
-Real-Time-Indian-Sign-Language-Detection
+Real Time Indian Sign Language Detection using YOLOv5
