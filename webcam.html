@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hand Speak Webcam Inference</title>
+        
+        <script src="https://cdn.roboflow.com/0.2.25/roboflow.js"></script>
+
+        <link rel="stylesheet" href="./webcam.css" />
+        <style>
+            #canvas {
+                background-color: gray;
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <h1>Live Inference</h1>
+              
+            <div id="canvas"></div>
+            <button id="toggleWebcamButton" onclick="toggleWebcam()">Toggle Webcam</button>
+            <button id="toggleSpeechButton" onclick="toggleSpeak()">Toggle Text-to-Speech</button>
+
+            <script src="./webcam.js"></script>
+        </main>
+    </body>
+</html>
